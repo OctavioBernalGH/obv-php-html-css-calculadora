@@ -28,15 +28,15 @@
                 break;
                 case ($operacion = "restar"):
                     $resultado = $numero1 - $numero2;
-                    echo $resultado;
+                    echo "<h1>El resultado de la resta es: ".$resultado."</h1>"; 
                 break;
                 case ($operacion = "dividir"):
                     $resultado = $numero1 / $numero2;
-                    echo $resultado;
+                    echo "<h1>El resultado de la división es: ".$resultado."</h1>"; 
                 break;
                 case ($operacion = "multiplicar"):
                     $resultado = $numero1 * $numero2;
-                    echo $resultado;
+                    echo "<h1>El resultado de la multiplicación es: ".$resultado."</h1>"; 
                 break;
             }
             ?>
